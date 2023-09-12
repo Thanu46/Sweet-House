@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<style>
+.box {
+    border:5px solid lightgrey;
+    background-color:coral;
+    padding:20px;
+    word-spacing:2px;
+    overflow:auto;
+}
+.img1 { 
+    float:left;
+    width:100px;
+    height:80px;
+}
+.img2 { 
+    float:right;
+    width:100px;
+    height:80px;
+}
+#id {
+    text-shadow:2px 2px;
+}
+table,td,th{
+border:1px solid white;
+border-collapse:collapse;
+height:500px;
+width:90%;
+font-size:20px;
+}
+.box {
+     text-align:justify;
+}
+.carousel-inner {
+ height:600px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box">
+<img  class="img1" src="img1.jpg" alt="img">
+<img class="img2" src="img2.jpg" alt="img">
+<h1 class="pt-3" id="id"> <center> <i>SWEET HOUSE</i> </center> </h1>
+</div>
+</div>
+<br>
+<nav class="navbar navbar-expand sticky-top bg-light">
+<div class="container-fluid">
+<a href="#" class="navbar-brand"> HOME </a>
+<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#box">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="box">
+<ul class="navbar-nav me-auto">
+<li class="nav-item ps-5"><a href="laddu.html" class="nav-link">LADDU </a> </li>
+<li class="nav-item ps-5"><a href="mysoor.html" class="nav-link"> MYSORE PAK</a> </li>
+<li class="nav-item ps-5"><a href="jalebi.html" class="nav-link">JALEBI</a>  </li>
+<li class="nav-item ps-5"><a href="gulabjamun.html" class="nav-link">GULAB JAMUN</a>  </li>
+</ul>
+<button type="button" class="btn btn-primary " data-bs-toggle="collapse" data-bs-target="#box"><i class="bi bi-search"></i></button>
+</nav><br>
+<div class="collapse" id="box">
+<form class="d-flex justify-content-center">
+<input type="text" class="form-control me-2" placeholder=" Serach" style="width:400px">
+<button type="button" class="btn btn-dark">Search </button>
+</form>
+</div>
+<br>
+<div class="container-fluid">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active"><img src="ca1.jpg" alt="image" class="d-block" style="width:100%"></div>
+<div class="carousel-item"><img src="ca2.jpg" alt="image" class="d-block" style="width:100%"></div>
+<div class="carousel-item"><img src="ca6.jpg" alt="image" class="d-block" style="width:100%"></div>
+<div class="carousel-item"><img src="ca14.jpg" alt="image" class="d-block" style="width:100%"></div>
+</div>
+<button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span></button>
+<button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span></button>
+</div>
+</div>
+<table>
+<tr>
+<td><center><img src="la7jpg.jpg" alt="laddu"width="400px" height="300px"></center></td>
+<td> <b>Laddu Sweets</b><br><br> Laddu or laddoo is a spherical sweet from the Indian subcontinent.<br><br> 
+Made of various ingredients and sugar syrup or jaggery.<br>
+<center><a href="laddu.html" class="btn btn-outline-primary btn-sm">Details</a></center></td>
+</tr>
+<tr>
+<td> <center><b>MysorePak Sweets</b> <br><br>Mysore pak is an Indian sweet prepared in ghee.<br>It originated in the city of Mysore.<br><br>
+<a href="mysoor.html" class="btn btn-outline-primary btn-sm">Details</a></center></td>
+<td><center><img src="my6.jpg" alt="laddu"width="400px" height="300px"></center></td>
+</tr>
+<tr>
+<td><center><img src="jalebi.jpg" alt="laddu"width="400px" height="300px"></center></td>
+<td> <b>Jalebi Sweets</b><br><br>Jalebi  is a popular sweet snack in south and west Asia, Africa. <br>
+It goes by many names, including jilapi, zelepi, jilebi, jilipi. <br><br>
+<center><a href="jalebi.html" class="btn btn-outline-primary btn-sm">Details</a></center></td>
+</tr>
+<tr>
+<td><center><b>GulabJamun sweets </b><br><br>Gulab jamun is an Indian dessert of fried dough balls.<br>
+ That are soaked in a sweet, sticky sugar syrup <br><br>
+<a href="gulabjamun.html" class="btn btn-outline-primary btn-sm">Details</a></center></td>
+<td><center><img src="gu4.jpg" alt="laddu"width="400px" height="300px"></center></td>
+</tr>
+</table>
+<h3>Description:</h3>
+<p class="box"> Laddu or laddoo is a spherical sweet from the Indian subcontinent made of various ingredients and sugar syrup or jaggery. 
+It has been described as "perhaps the most universal and ancient of Indian sweets."
+ Mysore pak is an Indian sweet prepared in ghee. It originated in the city of Mysore, one of the major cities in the Indian state of Karnataka. 
+It is made of generous amounts of ghee, sugar, gram flour, and often cardamom. The texture of this sweet is similar to a buttery and dense cookie.
+Jalebi  is a popular sweet snack in south and west Asia, Africa. 
+It goes by many names, including jilapi, zelepi, jilebi, jilipi. 
+Jalebis are Indian desserts made by deep-frying a wheat flour (maida flour) batter in pretzel or circular shapes, which are then soaked in sugar syrup. 
+They can be served warm or cold as well. They are sweet with chewy texture and crunchy crust.
+ Gulab jamun is an Indian dessert of fried dough balls that are soaked in a sweet, sticky sugar syrup.
+ As per tradition, the syrup has a delicate rose flavour: Gulab means 'rose water' and jamun refers to a berry of a similar size and colour.</p>
+</body>
+</html>
